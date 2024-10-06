@@ -1,0 +1,59 @@
+.addPost {
+    display: flex;
+    flex-direction: column;
+    width: 350px;        
+    margin-top: 400px;
+    margin: 70px auto;      
+    padding: 40px;
+    background-color: orange;
+    text-align: center;
+    line-break:auto;
+    border-radius: 10px;
+
+
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+}
+
+label {
+    width: 120px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.post-field {
+    width: 200%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    resize: none;
+    flex-grow: 1;
+}
+
+.file-upload {
+    flex-grow: 1;
+    padding: 10px 0;
+}
+
+.createpostbutton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.createpostbutton:hover {
+    background-color: #0056b3;
+}

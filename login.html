@@ -3,23 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Log in</title>
     <link rel="stylesheet" href="res/css/style.css">
-</head>
-<body>
-    <header class="Header">Home</header>
+    <link rel="stylesheet" href="res/css/login.css">
 
-    <section class="login">
-        <strong>Welcome to PostIt</strong><br>  
-        <a href="#">Create an account</a><br>
-        or<br>
-        Please log in<br>
-        <form action="index.html" method="get">
-            <input type="text" placeholder="Email" required><br>
-            <input type="password" placeholder="Password" required><br>
-            <button class="loginbutton"> Log in</button>
-        </form>
-        <a href="#">Forget password</a>
+</head>
+
+<body>
+    <header>
+        <nav>
+        <a href="index.html" class="nav-link">Home</a>
+        </nav>
+        <img src="res/images/me.png" alt="Profile Picture">
+    </header>
+
+    <section>
+        <div id="login">
+            <strong>Welcome to PostIt</strong> 
+            <a>Create an account</a>
+            or<br>
+            Please log in<br>
+            <form action="index.html" method="get">
+                <input type="email" placeholder="Email" required><br>
+                <input type="password" placeholder="Password" required><br>
+                <button class="loginbutton"> Log in</button>
+            </form>
+            <a>Forget password</a>
+        </div>
     </section>
 
     

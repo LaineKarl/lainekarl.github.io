@@ -5,8 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="res/css/style.css">
+    <link rel="stylesheet" href="res/css/addPost.css">
+
 </head>
 <body>
+    <header>
+        <nav>
+        <a href="index.html" class="nav-link">Home</a>
+        </nav>
+        <img src="res/images/me.png" alt="Profile Picture">
+
+    </header>
+
+    <section class="addPost">
+        <div class="post-box">
+            <form action="index.html" method="get">
+                <div class="form-group">
+                    <label for="post-field">Post body</label>
+                    <textarea id="post-field" class="post-field" placeholder="Write your post here..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="file-upload">Select file:</label>
+                    <input type="file" id="file-upload" class="file-upload" name="file">
+                </div>
+                <button class="createpostbutton">Create post</button>
+            </form>
+        </div>
+    </section>
     
 </body>
 </html>
