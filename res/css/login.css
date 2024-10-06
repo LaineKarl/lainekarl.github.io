@@ -1,7 +1,7 @@
 #login {
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: 400px;
     width: 350px;        
     margin: 70px auto;
     padding-top: 20px;      
@@ -11,7 +11,11 @@
     line-height: 1.5;
 }
 
-
+#login p::first-line {
+    font-weight: bold;
+    font-size: large;
+    font-style: italic;
+}
 
 input[type="email"],
 input[type="password"] {
