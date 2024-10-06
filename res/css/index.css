@@ -71,3 +71,7 @@
 div > p {
     font-style: italic;
 }
+
+.post p + p {
+    font-weight: bold;
+}
