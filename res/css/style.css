@@ -18,12 +18,14 @@ body {
 }
 
 .login {
-    display: block;
+    display: flexbox;
     width: 300px;        
     margin-top: 400px;
     margin: 0 auto;      
     padding: 40px;
     background-color: orange;
+    text-align: center;
+    line-break:auto;
 
 }
 
