@@ -63,3 +63,21 @@ function displayPosts(posts) {
 
 // Fetch posts on page load
 document.addEventListener('DOMContentLoaded', fetchPosts);
+
+// script.js
+document.addEventListener("DOMContentLoaded", function () {
+    const profileImage = document.getElementById("profileImage");
+    const dropdownMenu = document.getElementById("dropdownMenu");
+
+    profileImage.addEventListener("click", function () {
+        // Toggle the visibility of the dropdown menu
+        dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
+    });
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.addEventListener("click", function (event) {
+        if (!profileImage.contains(event.target) && !dropdownMenu.contains(event.target)) {
+            dropdownMenu.style.display = "none";
+        }
+    });
+});

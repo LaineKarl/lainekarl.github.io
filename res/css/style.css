@@ -16,7 +16,7 @@ header {
     padding: 10px 20px;
     margin: 10px;
     border-radius: 15px;
-
+    position: relative;
 }
 
 header img {
@@ -51,6 +51,40 @@ nav a {
 nav a:hover {
     background-color: #d0d0d0;
     color: #000;
+}
+
+.nav-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.profile-container {
+    position: relative; /* Position relative to allow dropdown positioning */
+}
+
+.dropdown-content {
+    position: absolute; /* Position the dropdown absolutely */
+    top: 100%; /* Position it directly below the profile image */
+    right: 0%;
+    width:auto;    
+    background-color: orange;
+    border: 1px solid black;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: none; /* Initially hidden */
+}
+
+.dropdown-content a,
+.dropdown-content span {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
 }
 
 footer {

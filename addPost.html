@@ -13,8 +13,14 @@
         <nav>
         <a href="index.html" class="nav-link">Home</a>
         </nav>
-        <img src="res/images/me.png" alt="Profile Picture">
-
+        <div class="profile-container">
+            <img src="res/images/me.png" alt="Profile Picture" id="profileImage" style="cursor: pointer;">
+            <div id="dropdownMenu" class="dropdown-content" style="display: none;">
+                <a>john.doe@ut.ee</a>
+                <span id="name">John Doe</span>
+                <a href="login.html">Log Out</a>
+            </div>
+        </div>
     </header>
 
     <section class="addPost">
@@ -32,6 +38,8 @@
             </form>
         </div>
     </section>
+
+    <script src="res/js/script.js"></script>
     
 </body>
 </html>
