@@ -75,3 +75,16 @@ div > p {
 .post p + p {
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    .parent {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 4px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .div2, .div4, .div5 {
+        grid-column: span 3 / span 3;
+    } 
+}
