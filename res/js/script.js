@@ -1,6 +1,6 @@
 const endpointUrl = 'https://dummyjson.com/c/f22c-c3b9-4620-902f'; //json URI
 
-async function fetchPosts() {
+async function fetchPosts() { //Fetching
     try {
         const response = await fetch(endpointUrl);
         const jsonData = await response.json();
