@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "profile_picture": "/res/images/profile1.jpg",
+      "comment": "Taking a moment to appreciate the little things in life today. 🌼 Sometimes it's the small joys that bring the most happiness!",
+      "created": "23.06.2024",
+      "photo": false
+    },
+    {
+      "id": 2,
+      "profile_picture": "/res/images/profile2.jpg",
+      "comment": "New week, new goals! 💪 Let's tackle this week with positivity and determination. Remember, every small step counts!",
+      "created": "01.02.2024",
+      "photo": false
+    },
+    {
+      "id": 3,
+      "profile_picture": "/res/images/profile3.jpg",
+      "comment": "I love fast women and fast cars!",
+      "created": "20.09.2023",
+      "photo": "/res/images/pilt2.jpg"
+    },
+    {
+      "id": 4,
+      "profile_picture": "/res/images/profile4.jpg",
+      "comment": "Why so serious?",
+      "created": "15.05.2023",
+      "photo": false
+    },
+    {
+      "id": 5,
+      "profile_picture": "/res/images/profile5.jpg",
+      "comment": "Come join my stream!",
+      "created": "12.02.2022",
+      "photo": false
+    },
+    {
+      "id": 6,
+      "profile_picture": "/res/images/profile6.jpg",
+      "comment": "Hello!",
+      "created": "10.02.2022",
+      "photo": false
+    },
+    {
+      "id": 7,
+      "profile_picture": "/res/images/profile7.jpg",
+      "comment": "What is 5 + 5?",
+      "created": "01.01.2022",
+      "photo": false
+    },
+    {
+      "id": 8,
+      "profile_picture": "/res/images/profile8.jpg",
+      "comment": "How to say 'freaky' in Chinese?",
+      "created": "23.08.2021",
+      "photo": false
+    },
+    {
+      "id": 9,
+      "profile_picture": "/res/images/profile9.jpg",
+      "comment": "Jingle bells, Kendrick smells.",
+      "created": "24.05.2021",
+      "photo": false
+    },
+    {
+      "id": 10,
+      "profile_picture": "/res/images/profile10.jpg",
+      "comment": "Sunny innit, lads?",
+      "created": "20.03.2021",
+      "photo": false
+    }
+  ]
