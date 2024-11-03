@@ -1,4 +1,7 @@
-const endpointUrl = 'https://dummyjson.com/c/f22c-c3b9-4620-902f'; //json URI
+/*
+const endpointUrl = 'https://dummyjson.com/c/f22c-c3b9-4620-902f';
+
+
 
 async function fetchPosts() { //Fetching
     try {
@@ -10,6 +13,16 @@ async function fetchPosts() { //Fetching
         console.error('Error fetching posts:', error);
     }
 }
+*/
+
+// fetch posts from json file in folder
+async function fetchPosts() {
+    fetch('res/json/info.json')
+        .then(response => response.json())
+        .then(posts => {
+          displayPosts(posts);
+        })
+  } 
 
 function displayPosts(posts) {
     const postList = document.querySelector('.post-list');
